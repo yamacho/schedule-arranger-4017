@@ -3,7 +3,7 @@
 const loader = require('./sequelize-loader');
 const Sequelize = loader.Sequelize;
 
-const Schedule = loader.detabase.define('schedules', {
+const Schedule = loader.database.define('schedules', {
   scheduleId: {
     type: Sequelize.UUID,
     primaryKey: true,
